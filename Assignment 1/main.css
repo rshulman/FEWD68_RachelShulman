@@ -1,0 +1,18 @@
+
+body {
+	background-color: #CFE;
+	font-family: Georgia;
+	text-align: center;
+}
+
+img {
+	border-style: solid;
+	border-color: black;
+	position: center;
+	width: 200px;
+}
+
+header {
+	font-family: Georgia;
+	text-align: center;
+}
