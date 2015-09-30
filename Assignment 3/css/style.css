@@ -63,21 +63,17 @@ body {
 /* Center the container */
 
 #container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   text-align: center;  
 
 }
 
-/*shouldnt the whole thing be in the center and 50% of the page width? 
-I had to do it to each div within the id for it to work */
-
-
 header {
   background: url(../images/header_bg.jpg);
   background-size: cover;
   height: 200px;
-  width: 40%;
+
  
 }
 
@@ -104,7 +100,7 @@ footer {
   background-size: cover;
   height:150px;
   padding: 20px;
-  width: 40%;
+
 
 }
 
@@ -123,7 +119,7 @@ footer {
   padding-bottom: 30px;
   padding-top: 30px;
   padding-right: 60px;
-  width: 40%;
+
 
 }
 
@@ -153,7 +149,7 @@ h3 {
   height: 180px;
   padding-top: 20px;
   padding-bottom:30px;
-  width: 40%;
+
 
 }
 
@@ -167,7 +163,6 @@ h3 {
   height: 60px;
   padding-top:20px;
   padding-bottom:20px;
-  width: 40%;
 }
 
 .button {
