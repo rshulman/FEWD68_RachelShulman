@@ -1,0 +1,194 @@
+/*
+Project Name: Blank Template
+Client: Relaxr
+Author: Rachel Shulman
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family:'Open Sans', sans-serif;
+     text-align: center;
+
+    
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+#container {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;  
+
+}
+
+/*shouldnt the whole thing be in the center and 50% of the page width? 
+I had to do it to each div within the id for it to work */
+
+
+header {
+  background: url(../images/header_bg.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 40%;
+ 
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  background-color: #121212;
+  background-size: cover;
+  height:150px;
+  padding: 20px;
+  width: 40%;
+
+}
+
+.foot {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.benefits {
+  background-color: #f0efef;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 60px;
+  width: 40%;
+
+}
+
+h3 {
+  font-weight: 600;
+  font-size:20px;
+}
+
+.getitnow {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  width: 20%;
+  float: center;
+  margin: 0 auto;
+
+}
+
+.quote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  height: 180px;
+  padding-top: 20px;
+  padding-bottom:30px;
+  width: 40%;
+
+}
+
+.signature {
+  font-weight: 600;
+  color: white;
+}
+
+.backgroundbutton {
+  background-color: #f9e42e;
+  height: 60px;
+  padding-top:20px;
+  padding-bottom:20px;
+  width: 40%;
+}
+
+.button {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  width: 30%;
+  margin: 0 auto;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+
+img {
+  padding-right: 10px;
+  width: 25px;
+  height: 15px;
+
+}
+
