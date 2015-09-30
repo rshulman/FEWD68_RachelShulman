@@ -1,0 +1,50 @@
+
+body {
+	background-color: #CFE;
+	font-family: Georgia;
+	text-align: left;
+}
+
+header {
+	font-family: Georgia;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+li {
+	padding-left: 1em;
+	text-indent:-1em;
+}
+
+li:before {
+	content: "*";
+	padding-right: 5px;
+}
+
+p:first-child:first-letter {
+	float: left; color: red; font-size: 40px; line-height:30px; 
+ 	padding-top:4px; padding-right:1px; padding-left: 3px; }
+
+img {
+	width: 200px;
+}
+
+container {
+	text-align: center;
+}
+.cf:before, .cf:after { content: ""; display: table; }
+.cf: after {clear: both; }
+.cf { zoom: 1; }
+
+
+.container > div {
+	float: left;
+	width: 350px;
+	margin: 20px;
+	padding: 5px;
+}
+
