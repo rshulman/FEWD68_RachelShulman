@@ -1,0 +1,18 @@
+//PSUEDOCODE HW
+
+p1 = player 1, p2 = player2
+p1 and p2 each pick 1 variable:
+r = rock
+s = scissors
+p = paper
+
+values:
+  r > s 
+  s > p
+  p > r
+
+p1 chooses r
+p2 chooses p
+
+if p1 chooses r and p2 chooses p, display 'WIN!'
+else, display 'play again'
