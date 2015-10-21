@@ -28,3 +28,8 @@ else if (city == "Sydney" || city == "Syd") {
 }
 });
 });
+
+
+// the code is not working for me. everything looks good but the background doesnt change when
+//i type in each city. i went through the solution code line by line to make sure it matched also
+//thoughts?
