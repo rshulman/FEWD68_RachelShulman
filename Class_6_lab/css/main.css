@@ -99,7 +99,7 @@ h3 {
 .tagline p {
  text-align: center;
   font-size: 30px;
-  font-color: black;
+  color: black;
   font-style: italic;
   padding-top: 10px;
 }
@@ -112,6 +112,15 @@ position: relative;
 
 }
 
+del {
+  color: gray;
+}
+
+ins {
+    text-decoration-color:yellow;
+/*how do i get the underline to be yellow? */
+
+}
 .meetmatch {
   float: right;
   width: 300px;
@@ -175,15 +184,14 @@ position: relative;
 
 .block {
 float: left;
-padding: 30px 30px 30px 30px;
-width: 300px;
+padding: 30px 10px 10px 10px;
+width: 250px;
 display: inline;
 font-size: 20px;
-margin: 0 auto;
+margin: 0px 0px 0px 110px;
 color: black;
 position: relative;
 overflow: hidden;
-
 
 
 }
