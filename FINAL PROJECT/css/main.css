@@ -1,0 +1,329 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: black;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family:'Open Sans', Helvetica, Arial, Sans-serif ;
+     font-weight: 300;
+     background-color: #f0efef;
+
+}
+
+
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  background-color: #f0efef;
+
+}
+
+/*header********/
+header {
+  height: 300px;
+  text-align: center;
+}
+.nav {
+  text-align: center;
+  height: 50px; 
+  background: gray;
+}
+.nav li {
+  font-size: 20px;
+  color: black;
+  list-style: none;
+  display: inline-block;
+  margin: 0 0 0 40px;
+  text-decoration: none;
+  padding-top: 11px;
+}
+header .nav li a {
+  text-decoration: none;
+  color: white;
+}
+header h1 {
+  font-family: 'Just Another Hand', Arial, Sans-serif;
+  font-size:160px;
+  font-weight: 50;
+  margin-top: 10px;
+}
+
+header h2 {
+  font-family: 'Great Vibes', Arial, Sans-serif;
+  font-size: 85px;
+  padding-left: 700px;
+  color: #00BFFF;
+  margin-top: -140px;
+}
+/**********/
+
+/*indexpage****/
+.map {
+  height: 700px;
+  margin-top: 10px;
+}
+.aboutme {
+  height: 400px;
+  background: gray;
+  color: white;
+}
+.aboutme p {
+  padding-top: 10px;
+}
+.aboutme h2 {
+  color: #00BFFF;
+  font-family: 'Just Another Hand';
+  font-size: 60px;
+  padding-left: 20px;
+  padding-bottom: -20px;
+}
+.rachel {
+  height: 325px;
+  width: 350px;
+  float: left;
+  padding: 0px 20px 20px 20px;
+}
+.map {
+  text-align: center;
+  color: gray;
+  font-size: 22px;
+  padding-top: 20px;
+}
+.map h3 {
+  font-size: 35px;
+}
+.high {
+  color: #00BFFF;
+  font-family: 'Great Vibes';
+  font-size: 28px;
+}
+/********/
+
+
+ h3 {
+  font-weight: 500;
+}
+
+h4 {
+ font-weight: 600;
+ color: #00BFFF;
+}
+
+.main {
+  font-size: 14px;
+  font-weight: 300;
+  float:left;
+  width: 900px;
+  text-align:left;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  color: gray;
+  padding-left:50px;
+}
+
+.main h3 {
+font-size: 20px;
+margin-right: 70px;
+color: black;
+}
+#accordion h2 {
+font-family: 'Just Another Hand';
+font-size: 25px;
+color: #00BFFF;
+
+}
+.main h1 {
+  font-size: 50px;
+  font-family: 'Just Another Hand';
+  color: black;
+}
+.city1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  color:black;
+   margin-bottom:40px;
+   margin-top:40px;
+}
+
+.city2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  color:black;
+  margin-top:20px;
+   margin-bottom:40px;
+}
+.city3 {
+  margin-top:20px;
+  margin-bottom:40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  color:black;
+
+}
+
+.city4 {
+  margin-top:40px;
+  margin-bottom:40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  color:black;
+}
+
+.bullets {
+  font-size: 12px;
+  font-family: 'Open Sans';
+}
+
+.content ul {
+list-style-type: circle;
+padding-left: 25px;
+
+}
+
+/*sidebar*********/
+.sidebar {
+  font-size: 14px;
+  float: right;
+  width: 250px;
+  margin-top:10px;
+  margin-right:40px;
+  text-align: center;
+  color: black;
+  border-left: 1px solid black;
+  padding-left: 30px;
+}
+.sidebar h5 {
+  color: #00BFFF;
+  font-family: 'Just Another Hand';
+  font-size: 35px;
+}
+.sidebar h6 {
+  color: #00BFFF;
+  font-family: 'Just Another Hand';
+  font-size: 25px;
+}
+.mepic {
+  width: 160px;
+  height:130px;
+  margin-top:10px;
+}
+.posts a {
+  color: black;
+}
+.hello {
+  margin: 0px 10px 10px 10px;
+}
+.recent {
+  margin: 10px;
+}
+.current {
+  margin: 10px;
+}
+/************/
+
+/*footer*****/
+footer {
+  text-align: center;
+  height: 200px;
+  padding: 50px;
+
+}
+.social img {
+  width: 30px;
+  height: 30px;
+}
+/*********/
+
+/*----- Accordion --*/
+ #accordion {
+  width: 900px;
+  float: left;
+ }
+ #accordion h2:hover {
+  background: gray;
+ }
+#accordion a {
+  color: #00BFFF;
+}
+.content {
+  padding:15px;
+  font-size: 12px;
+  display: none;
+  font-family: 'Open Sans';
+  height: 700px;
+}
+.athlist {
+  font-size: 12px;
+  list-style: circle;
+}
+.greece {
+  width: 300px;
+  height: 220px;
+  margin-left: 300px;
+}
+.greece1 {
+  width: 400px;
+  height:220px;
+  margin-left: 250px;
+}
+
+.greece2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 350px;
+}
+
+.greece3 {
+  width: 150px;
+  height:200px;
+  margin-left: 375px;
+
+}
+.myk {
+  padding-left: 150px;
+}
+.myk li {
+  text-align: center;
+  list-style: none;
+  display: inline;
+  padding-left:10px;
+
+}
+#accordion h2  {
+  background: none; !important
+}
+
+.greece4 {
+  width: 200px;
+  height:200px;
+}
+.greece5 {
+  width:150px;
+  height:200px;
+
+}
+/***********/
