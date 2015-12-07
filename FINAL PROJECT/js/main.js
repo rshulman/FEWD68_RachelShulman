@@ -1,15 +1,9 @@
-
-
 $(function() {
-    $( "#accordion" ).accordion({
-      collapsible: true,
-      active: false
+  $( "#accordion" ).accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content",
+    animate:200
 
-    });
   });
-
-$(function() {
-    $( "#accordion" ).accordion({
-      heightStyle: "content"
-    });
-  });
+});

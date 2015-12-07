@@ -3,138 +3,223 @@
   <head>
       <meta charset="utf-8">
       <meta name="description" content="Rachel Shulman Travel Blog">
- 
 
-   <title>From East To West</title>
-    <link href='https://fonts.googleapis.com/css?family=Just+Another+Hand|Mr+Dafoe|Alex+Brush|Great+Vibes|Allura' rel='stylesheet' type='text/css'>
+    <title>From East To West | Rachel's Travel Blog</title>
+    <link href='https://fonts.googleapis.com/css?family=Just+Another+Hand|Mr+Dafoe|Alex+Brush|Great+Vibes|Open Sans|Allura' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="js/jquery-ui.min.css">
     <link rel="stylesheet" href="css/main.css">
-    
-    
   </head>
   <body>
-      <header>
-        <div class="container">
-          <h1>FROM EAST TO WEST</h1>
-          <h2>with RMS</h2>
-            <nav>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Destinations</a></li>
-            </nav>
+    <header>
+      <div class="container">
+        <h1>FROM EAST TO WEST<span class="with-rms">with RMS</span></h1>
+        <h2 class="hidden-xs">with RMS</h2>
+        <nav>
+          <div class="nav-btn">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div><!--navbtn-->
+          <div class="nav hidden-xs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Travel Tips</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li>
+              <form>
+                <select onChange="if(this.selectedIndex!=0)self.location=this.options[this.selectedIndex].value">
+                  <option value="" selected>DESTINATIONS</option>
+                  <option value="greece.html">Greece</option>
+                  <option value="czech.html">Czech Republic</option>
+                  <option value="israel.html">Israel</option>
+                  <option value="france.html">France</option>
+                  <option value="costarica.html">Costa Rica</option>
+                  <option value="usa.html">USA</option>
+                  <option value="spain.html">Spain</option>
+                  <option value="germany.html">Germany</option>
+                  <option value="denmark.html">Denmark</option>
+                  <option value="netherlands.html">Netherlands</option>
+                  <option value="italy.html">Italy</option>
+                  <option value="ireland.html">Ireland</option>
+                  <option value="africa.html">South Africa</option>
+                  <option value="jordan.html">Jordan</option>
+                  <option value="canada.html">Canada</option>
+                  <option value="mexico.html">Mexico</option>
+                  <option value="poland.html">Poland</option>
+                  <option value="switz.html">Switzerland</option>
+                  <option value="barbados.html">Barbados</option>
+                  <option value="bahamas.html">Bahamas</option>
+                  <option value="canada.html">Canada</option>
+                  <option value="mexico.html">Mexico</option>
+                  <option value="dominican.html">Dominican Republic</option>
+                  <option value="hungary.html">Hungary</option>
+                  <option value="jamaica.html">Jamaica</option>
+                  <option value="sweden.html">Sweden</option>
+                </select>
+              <form>
+            </li>
+          </div><!--realnav-->
+        </nav><!--allnavs-->
+      </div><!--headercontainer-->
+    </header>
+    <div class="container cf">
+      <section class="main">
+        <h1>🇨🇿  CZECH REPUBLIC   🇨🇿</h1>
+        <p><strong>Coming Soon....</strong></p>
+        <!--<img src=" " class="greece">
+        <div class="expect">
+          <h3>General: What to Expect</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+          <h4>Language</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris. </p>
+          <h4>Currency</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.
+          <h4>Other General Tips</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris. </p>
+        </div> <!--expect-->
+        <div id="accordion">
+          <h2>PRAGUE</h2>
+            <div class ="content">
+              <!--<img src=" " class="greece">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              <img src=" " class="greece2">
+              <section class="toget">
+                <h3>How To Get There</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toget-->
+              <!--<section class ="todo">
+                <h3>What To Do</h3>
+                <img src=" " class="greece">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+                <img src=" " class="greece1">
+                <p>Main Sites To See:
+                  <ul>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta.</li>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta </li>
+                    <li class="bullets">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. </li>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. </li>
+                  </ul>
+              </section><!--todo-->
+              <!--<section class ="toeat">
+                <h3>What To Eat</h3>
+                <img src=" " class="greece">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toeat-->
+              <!--<section class ="tostay">
+                <h3>Where To Stay</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--tostay-->
+              <!--<section class ="toparty">
+                <h3>Where To Party</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toparty--> 
+            </div><!--zurichcontent-->
+          <h2>CESKY KRUMLOV</h2>
+            <div class ="content">
+              <!--<img src=" " class="greece">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              <img src=" " class="greece2">
+              <section class="toget">
+                <h3>How To Get There</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toget-->
+              <!--<section class ="todo">
+                <h3>What To Do</h3>
+                <img src=" " class="greece">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+                <img src=" " class="greece1">
+                <p>Main Sites To See:
+                  <ul>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta.</li>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta </li>
+                    <li class="bullets">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. </li>
+                    <li class="bullets"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. </li>
+                  </ul>
+              </section><!--todo-->
+              <!--<section class ="toeat">
+                <h3>What To Eat</h3>
+                <img src=" " class="greece">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toeat-->
+              <!--<section class ="tostay">
+                <h3>Where To Stay</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--tostay-->
+              <!--<section class ="toparty">
+                <h3>Where To Party</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toparty--> 
+            </div><!--ceskycontent-->
+          <h2>TEREZIN</h2>
+            <div class ="content">
+              <!--<img src=" " class="greece">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              <img src=" " class="greece2">
+              <section class="toget">
+                <h3>How To Get There</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+              </section><!--toget-->
+              <!--<section class ="todo">
+                <h3>What To Do</h3>
+                <img src=" " class="greece">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan enim vel eros vulputate posuere. Vestibulum id facilisis lacus. Sed semper varius tellus. In in purus felis. Quisque eleifend pretium porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce rutrum ut orci ac egestas. Mauris non tortor at velit varius egestas vel non enim. Nam eget massa et mi placerat vestibulum vel cursus mauris.</p>
+                <img src=" " class="greece1">
+                  </ul>
+              </section><!--todo-->
+            </div><!--terezincontent-->
+      </section><!--main-->
+      <section class="sidebar">
+        <article class="hello">
+          <h5>HELLO!</h5>
+          <img src="assets/me2.jpg" class="mepic">
+          <p>My name is Rachel Shulman and I am obsessed with traveling. I am always looking for my next destination and lusting over new cities. I have lived and traveled to various cities all over the world and I am so happy to share my tips, tricks and #foodie obsessions with you. </p>
+        </article><!--hello-->
+        <article class="recent">
+          <h6>RECENT POSTS</h6>
+          <div class="posts">
+              <p><a href="france.html">France</a></p>
+              <p><a href="greece.html">Greece</a></p>
+              <p><a href="africa.html">South Africa</a></p>
+              <p><a href="spain.html">Spain</a></p>
+              <p><a href="israel.html">Israel</a></p>
+          </div><!--posts-->
+        </article><!--recent-->
+        <article class="current">
+          <p>   </p>
+          <h6>CURRENT LOCATION</h6>
+          <p>New York City</p>
+        </article><!--current-->
+        <article class="whereto">
+          <form>
+            <h6>WHERE SHOULD I GO NEXT?</h6>
+            <input type="text" name="where" value="Type A City Here">
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        </article><!--whereto-->
+        <img src="assets/me.jpg" class="mepic">
+      </section> <!--sidebar-->
+    </div><!-- #container -->
+    
+    <footer>
+      <h2>C O N T A C T:</h2>
+        <div class="social cf">
+          <a href="https://www.twitter.com/rmshul"><img src="assets/social/Twitter.png" alt="Twitter"></a>
+          <a href="https://www.facebook.com/rshulman11"><img src="assets/social/fb.png" alt="Facebook"></a>
+          <a href="https://www.pinterest.com/rmshul"><img src="assets/social/Pinterest.png" alt="Pinterest"></a>
+          <a href="https://www.instagram.com/rmshulman"><img src="assets/social/insta.jpg" alt="Instagram"></a>
+          <a href="https://www.linkedin.com/in/rachelmshulman"><img src="assets/social/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://about.me/rachel_shulman"><img src="assets/social/aboutme.png" alt="AboutMe"></a>
         </div>
-      </header>
-      <div class="container cf">
-        <section class="main">
-          <h1>CZECH REPUBLIC</h1>
-          <p>While in college, I studied abroad in Prague, Czech Republic and couldn't have been happier with my decision. Prague is an amazing and gorgeous Eastern European city, totally preserved and phyically unharmed from WWII, which is very rare for Europe. The country has so much culture, beer and beautiful cities. </p> 
-          <div class="expect">
-            <h3>What to Expect</h3>
-            <h4>Language</h4>
-            <p>In the Czech Republic, they speak the wonderful language of Czech. This may be one of the uglier languages I Have encountered in my travels, however, after being mandated to take Czech 101 for 4 months straight, I grew to love it. However, in Prague, I woudl stick to English. Eastern Europeans are known to be not so friendly, so they would just appreciate you speaking in English and not wasting their time trying to decipher the language.</p>
-            <h4>Currency</h4>
-              <p>The currency in the Czech Republic is the Koruna (crown). Around 25 crowns equal a dollars, aka Prague is ridiculously cheap! Beer is known to be cheaper than water everywhere as it is around $.75, seriously. Everything else is ridiculously cheap as well. 
-            <h4>Other general tips</h4>
-          </div>
-          <article class="city1">
-            <h2>City #1: Prague</h2>
-            <p>I studied abroad and lived here in Fall 2011 for four months. I absolutely fell in love with the city, culture and beer. While a long time ago, I kept a detailed guide while I was there to get this website going. Read on for the best places to tour, eat, drink and visit in Prague, mostly known as PRAHA! </p>
-            <section class ="todo">
-                <h3>What To Do</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="toeat">
-                <h3>What To Eat</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="tostay">
-                <h3>Where To Stay</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="toparty">
-               <h3>Where To Party</h3>
-               <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-          </article>
-          <article class="city2">
-             <h2>City #2: Czesky Krumlov</h2>
-            <p>I took a weekend trip to this magical fairyland town a few hours outside of Prague. It literally feels like you are in a fairytale here it is so amazing.</p>
-            <section class ="todo">
-                <h3>What To Do</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="toeat">
-                <h3>What To Eat</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="tostay">
-                <h3>Where To Stay</h3>
-                <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-            <section class ="toparty">
-               <h3>Where To Party</h3>
-               <!--<img src="images/blog_photo1.jpg" class="blogphoto">-->
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-            </section>
-          </article>
-          <article class="city3">
-             <h2>Terezin</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, eratLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, eratLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, erat</p>
-      
-          </article>
-        </section>
-
-        <section class="sidebar">
-          
-          <article class="hello">
-            <h5>HELLO</h5>
-            <p>My name is Rachel Shulman and I am obsessed with traveling. I am always looking for my next destination and lusting over new cities. I have lived and traveled to various cities all over the world and I am so happy to share my tips, tricks and #foodie obsessions with you. </p>
-          </article>
-
-          <article class="recent">
-            <h5>Recent Posts</h5>
-            <div class="posts">
-               <p><a href="#">France</a></p>
-               <p><a href="#">Czech Republic</a></p>
-               <p><a href="#">Greece</a></p>
-               <p><a href="#">Spain</a></p>
-               <p><a href="#">Costa Rica</a></p>
-
-            </div>
-          </article>
-
-          <article class="current">
-            <p>   </p>
-            <h5>Current Location:</h5>
-            <p>NYC</p>
-          </article>
-
-           <article class="whereto">
-            <p>   </p>
-            <h5>Where Should I Go Next?</h5>
-            <!--add <form> here with a submissino to where to go next. -->
-          </article>
-        </section> <!--sidebar-->
-      </div><!-- #container -->
-      
-      <footer>
-          <h2>Contact</h2>
-            <div class="social">
-              <a href="https://www.twitter.com/rmshul"><img src="assets/Twitter.png" alt="Twitter"></a>
-              <a href="https://www.facebook.com/rshulman11"><img src="assets/fb.png" alt="Facebook"></a>
-              <a href="https://www.pinterest.com/rmshul"><img src="assets/Pinterest.png" alt="Pinterest"></a>
-              <a href="https://www.instagram.com/rmshulman"><img src="assets/insta.jpg" alt="Instagram"></a>
-              <a href="https://www.linkedin.com/in/rachelmshulman"><img src="assets/linkedin.png" alt="LinkedIn"></a>
-              <a href="https://about.me/rachel_shulman"><img src="assets/aboutme.png" alt="AboutMe"></a>
-            </div>
-          <p>Copyright 2015. Rachel M Shulman</p>
-        </footer>
+        <p>Feedback/Comments: Rachel.Shulman1@gmail.com</p>
+        <p>Copyright 2015. Rachel M Shulman</p>
+    </footer>
+    <!--links-->
+    <script src="js/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>
